@@ -1,3 +1,4 @@
+package test;
 import static org.junit.Assert.assertEquals;
 
 import java.util.ArrayList;
@@ -29,10 +30,11 @@ public class Level3CodingExam {
 		ButchCassidaysNuggets.add(1.35);
 		ButchCassidaysNuggets.add(6.36);
 		ButchCassidaysNuggets.add(0.84);
-
+		
 		assertEquals(WyateErpsNuggets, new ContestCalculator().calculateWinner(WyateErpsNuggets, ButchCassidaysNuggets));
 	}
 
+	
 
 	/** 
 	 * PART B
